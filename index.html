@@ -37,7 +37,7 @@
         }
         .projects {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
         }
         .project-card {
@@ -45,10 +45,19 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
         }
         .project-card h3 {
             margin-top: 0;
+        }
+        .project-card p {
+            font-size: 0.95rem;
+        }
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
         }
         .contacts {
             display: flex;
@@ -108,24 +117,27 @@
     <h2>Проєкти</h2>
     <div class="projects">
         <div class="project-card">
-            <h3>Проєкт 1</h3>
-            <p>Короткий опис проєкту 1</p>
-            <a href="#" target="_blank">Переглянути</a>
+            <h3>💱 Telegram Бот для перевірки валют і криптовалют</h3>
+            <p>Telegram-бот на Python, який надає актуальну інформацію про курси валют і криптовалют та дозволяє здійснювати конвертацію. Підтримує графіки курсів та курси від банків України (НБУ, ПриватБанк, Монобанк).</p>
+            <a href="https://github.com/Davidqwer123/Convektor" target="_blank">Переглянути на GitHub</a>
         </div>
+
         <div class="project-card">
-            <h3>Проєкт 2</h3>
-            <p>Короткий опис проєкту 2</p>
-            <a href="#" target="_blank">Переглянути</a>
+            <h3>📊 NBU Currency Rates Parser</h3>
+            <p>Python-скрипт для отримання актуальних курсів валют з API НБУ та збереження їх у CSV-файл. Зручний для аналізу та автоматизації роботи з валютами.</p>
+            <a href="https://github.com/Davidqwer123/parser_courses" target="_blank">Переглянути на GitHub</a>
         </div>
+
         <div class="project-card">
-            <h3>Проєкт 3</h3>
-            <p>Короткий опис проєкту 3</p>
-            <a href="#" target="_blank">Переглянути</a>
+            <h3>💘 Tinder GPT Bot</h3>
+            <p>Telegram-бот для тренування навичок спілкування, поєднує Tinder, ChatGPT і Telegram. Генерує профілі, створює opener-и та веде листування від імені користувача.</p>
+            <a href="https://github.com/Davidqwer123/tinder-gpt-bot" target="_blank">Переглянути на GitHub</a>
         </div>
+
         <div class="project-card">
-            <h3>Проєкт 4</h3>
-            <p>Короткий опис проєкту 4</p>
-            <a href="#" target="_blank">Переглянути</a>
+            <h3>💱 Convektor – Веб-застосунок конвертації валют</h3>
+            <p>Веб-сайт на Python (Flask) для перегляду актуальних курсів валют, конвертації та особистого кабінету. Підтримує дані з банківських API та персоналізацію користувача.</p>
+            <a href="https://github.com/Davidqwer123/Convektor" target="_blank">Переглянути на GitHub</a>
         </div>
     </div>
 </section>
